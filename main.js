@@ -20,8 +20,6 @@ todos = [{
 
 }
 
-
-
 // Creates a todo
 function createTodo(title,dueDate){
     const id = '' + new Date().getTime(); 
@@ -92,4 +90,3 @@ function deleteTodo(event){
     removeTodo(idtoDelete);
     render();
 }
-
